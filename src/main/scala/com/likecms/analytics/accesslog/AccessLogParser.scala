@@ -30,7 +30,7 @@ class AccessLogParser extends Serializable {
     bytesSentIdx,
     refererIdx,
     userAgentIdx,
-    httpXForwardedForIdx,
+    httpXForwardedForIdx
   ) = (1, 2, 3, 4, 5, 6, 7, 8, 9)
 
   def parseRecord(record: String): Option[AccessLogRecord] = {

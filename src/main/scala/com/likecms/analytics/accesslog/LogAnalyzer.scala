@@ -3,7 +3,7 @@ package com.likecms.analytics.accesslog
 trait LogAnalyzer {
   type T
 
-  def setLogFile(path: String): T
+  def createStream(): Unit
 
   def getPageView(accessLogRecord: T): Long
 

@@ -34,7 +34,7 @@ $ source ~/.bashrc
 $ cd /usr/local/spark/bin
 $ ./spark-shell
 # Make sure below screen is displayed
-=================================
+==========================================
 Welcome to
       ____              __
      / __/__  ___ _____/ /__
@@ -46,8 +46,7 @@ Using Scala version 2.11.12 (Java HotSpot(TM) 64-Bit Server VM, Java 1.8.0_121)
 Type in expressions to have them evaluated.
 Type :help for more information.
 
-scala> 
-=================================
+scala>
 ```
 
 Run application:
